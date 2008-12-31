@@ -2,8 +2,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Zenphoto\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2008-12-28 13:36-0000\n"
-"PO-Revision-Date: 2008-12-29 07:20-0000\n"
+"POT-Creation-Date: 2008-12-31 10:00-0000\n"
+"PO-Revision-Date: 2008-12-31 11:34-0000\n"
 "Last-Translator: Hinrik Örn Sigurðsson <hinrik.sig@gmail.com>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26,54 +26,54 @@ msgstr "eftir"
 
 #: zenphoto/zp-core/functions-db.php:30
 msgid "MySQL Error: The PHP MySQL extentions have not been installed. Please ask your administrator to add MySQL support to your PHP installation."
-msgstr ""
+msgstr "MySQL villa: PHP MySQL viðbæturnar hafa ekki verið uppsettar. Vinsamlegast biðjið kerfisstjórann um að bæa MySQL stuðningi við PHP uppsetninguna."
 
 #: zenphoto/zp-core/functions-db.php:36
 msgid "MySQL Error: Zenphoto could not connect to the database server."
-msgstr ""
+msgstr "MySQL villa: Zenphoto gat ekki tengst gagnagrunni."
 
 #: zenphoto/zp-core/functions-db.php:37
 msgid "Check your <strong>zp-config.php</strong> file for the correct <em><strong>host</strong>, <strong>user name</strong>, and <strong>password</strong></em>."
-msgstr ""
+msgstr "Opnaðu <strong>zp-config.php</strong> skrána og gáðu hvort <em><strong>host</strong>, <strong>user name</strong>, og <strong>password</strong></em> séu rétt stillt."
 
 #: zenphoto/zp-core/functions-db.php:38
 msgid "Note that you may need to change the <em>host</em> from localhost if your web server uses a separate MySQL server, which is common in large shared hosting environments like Dreamhost and GoDaddy."
-msgstr ""
+msgstr "Athugaðu að þú gætir þurft að breyta <em>host</em> í eitthvað annað en localhost ef vefþjónninn hýsir gagnagrunninn á sér netþjóni, sem er algengt í stórum hýsingarumhverfum eins og t.d. Dreamhost og GoDaddy."
 
 #: zenphoto/zp-core/functions-db.php:39
 msgid "Also make sure the server is running, if you control it."
-msgstr ""
+msgstr "Vertu viss um að þjónninn sé í gangi, ef þú sérð um hann."
 
 #: zenphoto/zp-core/functions-db.php:44
 #, php-format
 msgid "MySQL Error: The database is connected, but Zenphoto could not select the database %s."
-msgstr ""
+msgstr "MySQL villa: Gagnagrunnsþjónninn er keyrandi, en Zenphoto gat ekki tengst gagnagrunninum %s."
 
 #: zenphoto/zp-core/functions-db.php:45
 msgid "Make sure it already exists, create it if you need to."
-msgstr ""
+msgstr "Vertu viss um að gagnagrunnurinn sé til staðar, búðu hann til ef þú þarft þess."
 
 #: zenphoto/zp-core/functions-db.php:46
 msgid "Also make sure the user you're trying to connect with has privileges to use this database."
-msgstr ""
+msgstr "Vertu líka viss um að gagnagrunnsnotandinn sem þú ert að reyna að tengjast með hafi réttindi til að nota þennan gagnagrunn."
 
 #: zenphoto/zp-core/functions-db.php:78
 #, php-format
 msgid "MySQL Query ( <em>%1$s</em> ) failed. Error: %2$s"
-msgstr ""
+msgstr "MySQL fyrirspurn ( <em>%1$s</em> ) mistókst. Villa: %2$s"
 
 #: zenphoto/zp-core/functions-db.php:81
 msgid "It looks like your zenphoto tables haven't been created."
-msgstr ""
+msgstr "Það lítur út fyrir að zenphoto töflurnar hafi ekki verið búnar til."
 
 #: zenphoto/zp-core/functions-db.php:82
 #, php-format
 msgid "You may need to run <a href=\"%s/%s/setup.php\">the setup script.</a>"
-msgstr ""
+msgstr "Þú gætir þurft að keyra <a href=\"%s/%s/setup.php\">uppsetningarskriftuna</a>."
 
 #: zenphoto/zp-core/404.php:10
 msgid "Zenphoto Error:</strong> the requested object was not found."
-msgstr ""
+msgstr "Zenphoto villa:</strong> umbeðinn hlutur fannst ekki."
 
 #: zenphoto/zp-core/404.php:12
 #: zenphoto/themes/stopdesign/404.php:29
@@ -153,7 +153,7 @@ msgstr ""
 #: zenphoto/zp-core/admin-cache-images.php:97
 #, php-format
 msgid "Finished: Total of %u images."
-msgstr ""
+msgstr "Klárað: %u myndir samtals."
 
 #: zenphoto/zp-core/admin-cache-images.php:113
 #: zenphoto/zp-core/admin-refresh-metadata.php:85
@@ -166,11 +166,11 @@ msgstr "Til baka"
 
 #: zenphoto/zp-core/admin-albumsort.php:43
 msgid "No album provided to sort."
-msgstr ""
+msgstr "Ekkert albúm var gefið til að sortera."
 
 #: zenphoto/zp-core/admin-albumsort.php:47
 msgid "You do not have rights to sort this album"
-msgstr ""
+msgstr "Þú hefur ekki réttindi til að sortera þetta albúm"
 
 #: zenphoto/zp-core/admin-albumsort.php:66
 msgid "back to the album list"
@@ -203,19 +203,19 @@ msgstr "Röðun mynda vistuð"
 
 #: zenphoto/zp-core/admin-albumsort.php:80
 msgid "Sort the images by dragging them..."
-msgstr ""
+msgstr "Sorteraðu myndirnar með því að draga þær..."
 
 #: zenphoto/zp-core/class-gallery.php:31
 #: zenphoto/zp-core/class-gallery.php:119
 #, php-format
 msgid "Error: The 'albums' directory (%s) cannot be found."
-msgstr ""
+msgstr "Villa: 'albums' mappan (%s) finnst ekki."
 
 #: zenphoto/zp-core/class-gallery.php:33
 #: zenphoto/zp-core/class-gallery.php:121
 #, php-format
 msgid "Error: The 'albums' directory (%s) is not readable."
-msgstr ""
+msgstr "Villa: 'albums' mappan (%s) er án lesréttinda."
 
 #: zenphoto/zp-core/lib-pclzip.php:113
 msgid "Abort"
@@ -223,23 +223,23 @@ msgstr "Hætta við"
 
 #: zenphoto/zp-core/lib-pclzip.php:113
 msgid "Missing zlib extensions"
-msgstr ""
+msgstr "Það vantar zlib viðbætur"
 
 #: zenphoto/zp-core/lib-pclzip.php:152
 #: zenphoto/zp-core/lib-pclzip.php:245
 #: zenphoto/zp-core/lib-pclzip.php:375
 #: zenphoto/zp-core/lib-pclzip.php:450
 msgid "Invalid number / type of arguments"
-msgstr ""
+msgstr "Röng tala/tegund frumgilda"
 
 #: zenphoto/zp-core/lib-pclzip.php:173
 msgid "Invalid variable type p_filelist"
-msgstr ""
+msgstr "Breytan p_filelist er af rangri tegund"
 
 #: zenphoto/zp-core/lib-pclzip.php:266
 #, php-format
 msgid "Invalid variable type %s for p_filelist"
-msgstr ""
+msgstr "Tegund %s fyrir p_filelist er röng"
 
 #: zenphoto/zp-core/lib-pclzip.php:520
 #: zenphoto/zp-core/lib-pclzip.php:2254
@@ -254,7 +254,7 @@ msgstr "Engin skrá með þetta nafn"
 #: zenphoto/zp-core/lib-pclzip.php:557
 #: zenphoto/zp-core/lib-pclzip.php:580
 msgid "Invalid variable type p_archive_to_add"
-msgstr ""
+msgstr "Breytan p_archive_to_add er af rangri tegund"
 
 #: zenphoto/zp-core/lib-pclzip.php:653
 msgid "Missing archive file"
@@ -278,44 +278,44 @@ msgstr ""
 #: zenphoto/zp-core/lib-pclzip.php:883
 #: zenphoto/zp-core/lib-pclzip.php:910
 msgid "Missing parameter value for option"
-msgstr ""
+msgstr "Það vantar frumgildi fyrir þennan valmöguleika"
 
 #: zenphoto/zp-core/lib-pclzip.php:708
 #: zenphoto/zp-core/lib-pclzip.php:723
 #: zenphoto/zp-core/lib-pclzip.php:753
 msgid "Wrong parameter value for option"
-msgstr ""
+msgstr "Rangt frumgildi fyrir þennan valmöguleika"
 
 #: zenphoto/zp-core/lib-pclzip.php:798
 msgid "Value must be integer, string or array for option"
-msgstr ""
+msgstr "Gildið fyrir þennan valmöguleika verður að vera tala, strengur eða fylki"
 
 #: zenphoto/zp-core/lib-pclzip.php:832
 msgid "Too many values in index range for option"
-msgstr ""
+msgstr "Of mörg gildi í vísitölusviði fyrir þennan valmöguleika"
 
 #: zenphoto/zp-core/lib-pclzip.php:848
 msgid "Invalid order of index range for option"
-msgstr ""
+msgstr "Ógild röpun á vísitölusviði fyrir þennan valmöguleika"
 
 #: zenphoto/zp-core/lib-pclzip.php:924
 #, php-format
 msgid "Function %1$s is not an existing function for option %2$s"
-msgstr ""
+msgstr "Fallið %1$s er ekki til staðar fyrir valmöguleikann %2$s"
 
 #: zenphoto/zp-core/lib-pclzip.php:939
 #: zenphoto/zp-core/lib-pclzip.php:1087
 msgid "Unknown parameter"
-msgstr ""
+msgstr "Óþekkt frumgildi"
 
 #: zenphoto/zp-core/lib-pclzip.php:960
 #: zenphoto/zp-core/lib-pclzip.php:1102
 msgid "Missing mandatory parameter"
-msgstr ""
+msgstr "Það vantar nauðsynlegt frumgildi"
 
 #: zenphoto/zp-core/lib-pclzip.php:995
 msgid "Invalid file attribute"
-msgstr ""
+msgstr "Ógilt skráareigindi"
 
 #: zenphoto/zp-core/lib-pclzip.php:1006
 #: zenphoto/zp-core/lib-pclzip.php:1024
@@ -323,25 +323,25 @@ msgstr ""
 #: zenphoto/zp-core/lib-pclzip.php:1059
 #, php-format
 msgid "Invalid type %1$s String expected for attribute %2$s"
-msgstr ""
+msgstr "Ógild tegund %1$s, búist er við streng fyrir eigindið %2$s"
 
 #: zenphoto/zp-core/lib-pclzip.php:1015
 msgid "Invalid empty filename for attribute"
-msgstr ""
+msgstr "Ógilt tómt skráarnafn fyrir eigindi"
 
 #: zenphoto/zp-core/lib-pclzip.php:1033
 msgid "Invalid empty short filename for attribute"
-msgstr ""
+msgstr "Ógilt tómt stutt skráarnafn fyrir eigindi"
 
 #: zenphoto/zp-core/lib-pclzip.php:1050
 #, php-format
 msgid "Invalid empty full filename for attribute %s"
-msgstr ""
+msgstr "Ógilt tómt fullt skráarnafn fyrir eigindi %s"
 
 #: zenphoto/zp-core/lib-pclzip.php:1070
 #, php-format
 msgid "Invalid type %1$s Integer expected for attribute %2$s"
-msgstr ""
+msgstr "Ógild tegund %1$s, búist er við tölu fyrir eigindið %2$s"
 
 #: zenphoto/zp-core/lib-pclzip.php:1180
 msgid "File"
@@ -351,22 +351,22 @@ msgstr "Skrá"
 #: zenphoto/zp-core/lib-pclzip.php:4349
 #, php-format
 msgid "Unable to open temporary file %s in binary write mode"
-msgstr ""
+msgstr "Get ekki opnað bráðabirgðaskrá %s í binary skrifham"
 
 #: zenphoto/zp-core/lib-pclzip.php:1512
 #, php-format
 msgid "Zip file %s already open"
-msgstr ""
+msgstr "Zip skráin %s þegar opin"
 
 #: zenphoto/zp-core/lib-pclzip.php:1524
 #, php-format
 msgid "Unable to open archive %1$s in %2$s mode"
-msgstr ""
+msgstr "Gat ekki opnað skráarsafnið %1$s í %2$s ham"
 
 #: zenphoto/zp-core/lib-pclzip.php:1670
 #, php-format
 msgid "File %s does not exists"
-msgstr ""
+msgstr "Skráin %s er ekki til"
 
 #: zenphoto/zp-core/lib-pclzip.php:1723
 msgid "Invalid file list parameter (invalid or empty list)"
@@ -375,7 +375,7 @@ msgstr ""
 #: zenphoto/zp-core/lib-pclzip.php:1854
 #, php-format
 msgid "Unable to open file %s in binary read mode"
-msgstr ""
+msgstr "Get ekki opnað skrána %s í binary lesham"
 
 #: zenphoto/zp-core/lib-pclzip.php:2280
 #: zenphoto/zp-core/lib-pclzip.php:2450
@@ -383,68 +383,68 @@ msgstr ""
 #: zenphoto/zp-core/lib-pclzip.php:3877
 #: zenphoto/zp-core/lib-pclzip.php:4043
 msgid "Invalid archive size"
-msgstr ""
+msgstr "Ógild stærð á skráarsafni"
 
 #: zenphoto/zp-core/lib-pclzip.php:2575
 #, php-format
 msgid "Filename %1$s is compressed by an unsupported compression method (%2$s)"
-msgstr ""
+msgstr "Srkáin %1$s er þjöppuð með óstuddri þjöppunaraðferð (%2$s)"
 
 #: zenphoto/zp-core/lib-pclzip.php:2596
 #, php-format
 msgid "Unsupported encryption for filename %s"
-msgstr ""
+msgstr "Óstudd dulkóðun fyrir skrána %s"
 
 #: zenphoto/zp-core/lib-pclzip.php:2834
 #, php-format
 msgid "Filename %s is outside PCLZIP_OPT_EXTRACT_DIR_RESTRICTION"
-msgstr ""
+msgstr "Skráin %s er fyrir utan PCLZIP_OPT_EXTRACT_DIR_RESTRICTION"
 
 #: zenphoto/zp-core/lib-pclzip.php:2899
 #, php-format
 msgid "Filename %s is already used by an existing directory"
-msgstr ""
+msgstr "Skráin %s er þegar í notkun af annari möppu"
 
 #: zenphoto/zp-core/lib-pclzip.php:2921
 #, php-format
 msgid "Filename %s exists and is write protected"
-msgstr ""
+msgstr "Skráin %s er til og er skriflæst"
 
 #: zenphoto/zp-core/lib-pclzip.php:2949
 #, php-format
 msgid "Newer version of %s exists and option PCLZIP_OPT_REPLACE_NEWER is not selected"
-msgstr ""
+msgstr "Nýrri útgáfa af %s er til og valmöguleikinn PCLZIP_OPT_REPLACE_NEWER er ekki valinn"
 
 #: zenphoto/zp-core/lib-pclzip.php:3352
 #: zenphoto/zp-core/lib-pclzip.php:3479
 msgid "Invalid archive structure"
-msgstr ""
+msgstr "Ógild uppbygging á skráarsafni"
 
 #: zenphoto/zp-core/lib-pclzip.php:3370
 #: zenphoto/zp-core/lib-pclzip.php:3497
 msgid "Invalid block size :"
-msgstr ""
+msgstr "Ógild block stærð:"
 
 #: zenphoto/zp-core/lib-pclzip.php:3662
 msgid "Unable to go to the end of the archive"
-msgstr ""
+msgstr "Gat ekki séð fyrir endann á skráarsafninu"
 
 #: zenphoto/zp-core/lib-pclzip.php:3679
 #: zenphoto/zp-core/lib-pclzip.php:3711
 msgid "Unable to seek back to the middle of the archive"
-msgstr ""
+msgstr "Gat ekki farið aftur í miðjuna á skráarsafninu"
 
 #: zenphoto/zp-core/lib-pclzip.php:3747
 msgid "Unable to find End of Central Dir Record signature"
-msgstr ""
+msgstr "Finn ekki End of Central Dir Record undirskrift"
 
 #: zenphoto/zp-core/lib-pclzip.php:3764
 msgid "Invalid End of Central Dir Record size :"
-msgstr ""
+msgstr "Ógild End of Central Dir Record stærð:"
 
 #: zenphoto/zp-core/lib-pclzip.php:3788
 msgid "The central dir is not at the end of the archive."
-msgstr ""
+msgstr "The central dir is not at the end of the archive."
 
 #: zenphoto/zp-core/lib-pclzip.php:3789
 msgid "Some trailing bytes exists after the archive."
@@ -452,62 +452,62 @@ msgstr ""
 
 #: zenphoto/zp-core/lib-pclzip.php:4238
 msgid "Unable to create directory"
-msgstr ""
+msgstr "Get ekki búið til möppu"
 
 #: zenphoto/zp-core/lib-pclzip.php:4500
 #, php-format
 msgid "Unable to open archive file %s in binary write mode"
-msgstr ""
+msgstr "Get ekki opnað skráarsafnið %s í binary skrifham"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:35
 msgid "Refresh Database"
-msgstr ""
+msgstr "Endurnýja gagnagrunn"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:36
 msgid "Finished refreshing the database"
-msgstr ""
+msgstr "Endurnýjun gagnagrunns lokið"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:37
 msgid "Database refresh is incomplete"
-msgstr ""
+msgstr "Endurnýjun gagnagrunns kláraðist ekki"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:38
 msgid "We're all set to refresh the database"
-msgstr ""
+msgstr "Við erum tilbúin til að endurnýja gagnagrunninn"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:39
 msgid "Continue refreshing the database."
-msgstr ""
+msgstr "Halda áfram að endurnýja gagnagrunninn"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:42
 #: zenphoto/zp-core/admin.php:294
 #: zenphoto/zp-core/admin-functions.php:1337
 msgid "Refresh Metadata"
-msgstr ""
+msgstr "Endurnýja lýsigögn"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:43
 msgid "Finished refershing the metadata"
-msgstr ""
+msgstr "Endurnýjun lýsigagna lokið"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:44
 msgid "Metadata refresh is incomplete"
-msgstr ""
+msgstr "Endurnýjun lýsigagna kláraðist ekki"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:45
 msgid "We're all set to refresh the metadata"
-msgstr ""
+msgstr "Við erum tilbúin til að endurnýja lýsigögnin"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:46
 msgid "Continue refreshing the metadata."
-msgstr ""
+msgstr "Halda áfram að endurnýja lýsigögn"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:84
 msgid "you should return automatically. If not press: "
-msgstr ""
+msgstr "þú ættir að koma aftur sjálfkrafa. Ef ekki, ýttu á: "
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:91
 msgid "This process should continue automatically. If not press: "
-msgstr ""
+msgstr "Þetta ferli ætti að halda áfram sjálfkrafa. Ef ekki, ýttu á: "
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:92
 msgid "Continue!"
@@ -518,7 +518,7 @@ msgstr "Áfram!"
 #: zenphoto/zp-core/utilities/scheduled_content.php:183
 #: zenphoto/zp-core/utilities/backup_restore.php:209
 msgid "database connected"
-msgstr ""
+msgstr "gagnagrunnur tengdur"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:119
 #, php-format
@@ -528,15 +528,15 @@ msgstr "<em>%s</em> fannst ekki"
 #: zenphoto/zp-core/admin-refresh-metadata.php:130
 #, php-format
 msgid "We're all set to refresh the metadata for <em>%s</em>"
-msgstr ""
+msgstr "Við erum tilbúin til að endurnýja lýsigögn fyrir <em>%s</em>"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:139
 msgid "This process should start automatically. If not press: "
-msgstr ""
+msgstr "Þetta ferli ætti að fara í gang sjálfkrafa. Ef ekki, ýtu á: "
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:140
 msgid "Refresh image metadata."
-msgstr ""
+msgstr "Endurnýja lýsigögn myndarinnar."
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:140
 #: zenphoto/zp-core/setup.php:1503
@@ -547,13 +547,13 @@ msgstr "Af stað!"
 #: zenphoto/zp-core/utilities/scheduled_content.php:334
 #: zenphoto/zp-core/utilities/backup_restore.php:249
 msgid "database not connected"
-msgstr ""
+msgstr "gagnagrunnur ótengdur"
 
 #: zenphoto/zp-core/admin-refresh-metadata.php:145
 #: zenphoto/zp-core/utilities/scheduled_content.php:335
 #: zenphoto/zp-core/utilities/backup_restore.php:250
 msgid "Check the zp-config.php file to make sure you've got the right username, password, host, and database. If you haven't created the database yet, now would be a good time."
-msgstr ""
+msgstr "Skoðaðu zp-config.php skrána og gáðu hvort þú hefur sett in rétt notandanafn, aðgangsorð, netþjón, og gagnagrunn. Núna væri góður tími til að búa til gagnagrunninn, ef þú átt það ógert."
 
 #: zenphoto/zp-core/admin-plugins.php:52
 #: zenphoto/zp-core/admin-options.php:402
@@ -562,19 +562,19 @@ msgstr "Vistað"
 
 #: zenphoto/zp-core/admin-plugins.php:66
 msgid "Plugins provide optional functionality for Zenphoto."
-msgstr ""
+msgstr "Íbætur veita aukna virkni í Zenphoto."
 
 #: zenphoto/zp-core/admin-plugins.php:67
 msgid "They may be provided as part of the Zenphoto distribution or as offereings from third parties."
-msgstr ""
+msgstr "Þær geta verið dreift með Zenphoto dreifingunni eða af þriðja aðila."
 
 #: zenphoto/zp-core/admin-plugins.php:68
 msgid "Plugins are placed in the <code>zp-core/plugins</code> folder and are automatically discovered."
-msgstr ""
+msgstr "Íbætur eru settar í <code>zp-core/plugins</code> möppuna og eru fundnar sjálfkrafa."
 
 #: zenphoto/zp-core/admin-plugins.php:69
 msgid "If the plugin checkbox is checked, the plugin will be loaded and its functions made available to theme pages. If the checkbox is not checked the plugin is disabled and occupies no resources."
-msgstr ""
+msgstr "Ef íbótargátreiturinn er valinn, verður íbótin virkt og valmöguleikar hennar gerðar tiltækar fyrir þemasíðu. Ef gátreiturinn er óvalinn, er íbótin óvirk og tekur hún ekki upp neinar auðlindir."
 
 #: zenphoto/zp-core/admin-plugins.php:73
 #: zenphoto/zp-core/admin-plugins.php:168
@@ -592,23 +592,23 @@ msgstr "vista"
 
 #: zenphoto/zp-core/admin-plugins.php:88
 msgid "<strong>Error parsing <em>plugin_description</em> string!</strong> Try removing semicolons from string."
-msgstr ""
+msgstr "<strong>Villa kom upp við þáttun á <em>plugin_description</em> strengnum!</strong> Prófaðu að fjarlægja semikommur úr strengnum."
 
 #: zenphoto/zp-core/admin-plugins.php:97
 msgid "<strong>Error parsing <em>plugin_author</em> string!</strong> Try removing semicolons from string."
-msgstr ""
+msgstr "<strong>Villa kom upp við þáttun á <em>plugin_author</em> strengnum!</strong> Prófaðu að fjarlægja semikommur úr strengnum."
 
 #: zenphoto/zp-core/admin-plugins.php:106
 msgid "<strong>Error parsing <em>plugin_version</em> string!</strong> Try removing semicolons from string."
-msgstr ""
+msgstr "<strong>Villa kom upp við þáttun á <em>plugin_version</em> strengnum!</strong> Prófaðu að fjarlægja semikommur úr strengnum."
 
 #: zenphoto/zp-core/admin-plugins.php:115
 msgid "<strong>Error parsing <em>plugin_URL</em> string!</strong> Try removing semicolons from string."
-msgstr ""
+msgstr "<strong>Villa kom upp við þáttun á <em>plugin_URL</em> strengnum!</strong> Prófaðu að fjarlægja semikommur úr strengnum."
 
 #: zenphoto/zp-core/admin-plugins.php:124
 msgid "<strong>Error parsing <em>plugin_disable</em> string!</strong> Try removing semicolons from string."
-msgstr ""
+msgstr "<strong>Villa kom upp við þáttun á <em>plugin_disable</em> strengnum!</strong> Prófaðu að fjarlægja semikommur úr strengnum."
 
 #: zenphoto/zp-core/admin-plugins.php:154
 msgid "Usage information"
@@ -621,20 +621,20 @@ msgstr "Höfundur"
 #: zenphoto/zp-core/auth_zp.php:55
 #, php-format
 msgid "You are receiving this e-mail because of a password reset request on your Zenphoto gallery from a user who tried to log in as %s."
-msgstr ""
+msgstr "Þú fékkst þennan tölvupóst vegna þess að notandi sem reyndi að skrá sig inn með nafninu %s bað um að láta núllstilla aðgangsorð sitt á Zenphoto gallerýinu þínu."
 
 #: zenphoto/zp-core/auth_zp.php:65
 #, php-format
 msgid "To reset your Zenphoto Admin passwords visit: %s"
-msgstr ""
+msgstr "Til að núllstilla Zenphoto stjórnandaaðgangsorðin þín, farðu á %s"
 
 #: zenphoto/zp-core/auth_zp.php:66
 msgid "If you do not wish to reset your passwords just ignore this message. This ticket will automatically expire in 3 days."
-msgstr ""
+msgstr "Eg þú vilt ekki núllstilla aðgangsorðin þín skaltu hundsa þessi skilaboð. Fyrirspurning mun fyrnast eftir 3 daga."
 
 #: zenphoto/zp-core/auth_zp.php:67
 msgid "The Zenphoto information you requested"
-msgstr ""
+msgstr "Zenphoto upplýsingarnar sem þú baðst um"
 
 #: zenphoto/zp-core/admin-edit.php:409
 msgid "Subalbum order saved"
@@ -651,7 +651,7 @@ msgstr "Breyta albúmi:"
 #: zenphoto/zp-core/admin-edit.php:420
 #: zenphoto/zp-core/admin-edit.php:899
 msgid "Back to the list of albums (go up one level)"
-msgstr ""
+msgstr "Aftur á albúmalista (upp um eitt þrep)"
 
 #: zenphoto/zp-core/admin-edit.php:422
 msgid "Sort Album"
@@ -659,12 +659,12 @@ msgstr "Sortera albúm"
 
 #: zenphoto/zp-core/admin-edit.php:435
 msgid "You must supply a  password."
-msgstr ""
+msgstr "Þú verður að gefa aðgangsorð."
 
 #: zenphoto/zp-core/admin-edit.php:437
 #: zenphoto/zp-core/plugins/register_user.php:159
 msgid "Your passwords did not match."
-msgstr ""
+msgstr "Aðgangsorðin þín samsvarast ekki."
 
 #: zenphoto/zp-core/admin-edit.php:446
 msgid "Changes saved"
@@ -672,11 +672,11 @@ msgstr "Breytingar vistaðar"
 
 #: zenphoto/zp-core/admin-edit.php:452
 msgid "There was an error with a move, copy, or rename operation."
-msgstr ""
+msgstr "Það kom upp villa við það að færa, afrita, eða endurskíra."
 
 #: zenphoto/zp-core/admin-edit.php:460
 msgid "Images uploaded"
-msgstr ""
+msgstr "Myndir uppfluttar"
 
 #: zenphoto/zp-core/admin-edit.php:465
 msgid "Album cache purged"
@@ -706,32 +706,32 @@ msgstr " lækkandi"
 #: zenphoto/zp-core/admin-edit.php:1018
 #, php-format
 msgid "Current sort: <em>%1$s%2$s</em>. "
-msgstr ""
+msgstr "Núgildandi sorterun: <em>%1$s%2$s</em>. "
 
 #: zenphoto/zp-core/admin-edit.php:516
 #: zenphoto/zp-core/admin-edit.php:1019
 msgid "Drag the albums into the order you wish them displayed."
-msgstr ""
+msgstr "Dragðu albúmið í þá röð sem þú vilt hafa þau."
 
 #: zenphoto/zp-core/admin-edit.php:517
 #: zenphoto/zp-core/admin-edit.php:1021
 msgid "Select an album to edit its description and data, or"
-msgstr ""
+msgstr "Veldu album til að breyta lýsingu og gögnum þess, eða"
 
 #: zenphoto/zp-core/admin-edit.php:519
 #: zenphoto/zp-core/admin-edit.php:1022
 msgid "mass-edit all album data"
-msgstr ""
+msgstr "hópbreyta öllum albúmsgögnum"
 
 #: zenphoto/zp-core/admin-edit.php:532
 #: zenphoto/zp-core/admin-edit.php:1043
 msgid "Has Password"
-msgstr ""
+msgstr "Er varið aðgangsorði"
 
 #: zenphoto/zp-core/admin-edit.php:533
 #: zenphoto/zp-core/admin-edit.php:1044
 msgid "Published/Unpublished"
-msgstr ""
+msgstr "Útgefið/Óútgefið"
 
 #: zenphoto/zp-core/admin-edit.php:534
 #: zenphoto/zp-core/admin-edit.php:1045
@@ -741,7 +741,7 @@ msgstr ""
 #: zenphoto/zp-core/admin-edit.php:535
 #: zenphoto/zp-core/admin-edit.php:1046
 msgid "Refresh image metadata"
-msgstr ""
+msgstr "Endurnýja lýsigögn myndar"
 
 #: zenphoto/zp-core/admin-edit.php:536
 #: zenphoto/zp-core/admin-edit.php:1047
@@ -767,11 +767,11 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-edit.php:566
 msgid "expand all fields"
-msgstr ""
+msgstr "opna alla dálka"
 
 #: zenphoto/zp-core/admin-edit.php:567
 msgid "collapse all fields"
-msgstr ""
+msgstr "loka öllum dálkum"
 
 #: zenphoto/zp-core/admin-edit.php:573
 #, php-format
@@ -796,7 +796,7 @@ msgstr "Handvirkt"
 
 #: zenphoto/zp-core/admin-edit.php:578
 msgid "Display images by:"
-msgstr ""
+msgstr "Sýna myndir eftir:"
 
 #: zenphoto/zp-core/admin-edit.php:597
 #: zenphoto/zp-core/admin-edit.php:866
@@ -841,18 +841,18 @@ msgstr ""
 #: zenphoto/zp-core/admin-functions.php:925
 #: zenphoto/zp-core/plugins/contact_form/form.php:91
 msgid "Reset"
-msgstr ""
+msgstr "Núllstilla"
 
 #: zenphoto/zp-core/admin-edit.php:675
 #: zenphoto/zp-core/admin-functions.php:924
 #, php-format
 msgid "Rating: <strong>%u</strong>"
-msgstr ""
+msgstr "Einkunn: <strong>%u</strong>"
 
 #: zenphoto/zp-core/admin-edit.php:677
 #: zenphoto/zp-core/admin-functions.php:927
 msgid "Rating: Unrated"
-msgstr ""
+msgstr "Einkunn: engin"
 
 #: zenphoto/zp-core/admin-edit.php:686
 #: zenphoto/zp-core/admin-functions.php:1097
@@ -866,11 +866,11 @@ msgstr "Afrita"
 
 #: zenphoto/zp-core/admin-edit.php:697
 msgid "Rename File"
-msgstr ""
+msgstr "Endurskíra skrá"
 
 #: zenphoto/zp-core/admin-edit.php:701
 msgid "Are you sure you want to select this image for deletion?"
-msgstr ""
+msgstr "Ertu viss um að þú viljir velja þessa mynd til eyðingar?"
 
 #: zenphoto/zp-core/admin-edit.php:702
 msgid "Delete image."
@@ -893,11 +893,11 @@ msgstr "Hætta við"
 
 #: zenphoto/zp-core/admin-edit.php:741
 msgid "Image will be deleted when changes are saved."
-msgstr ""
+msgstr "Myndinni verður eytt þegar breytingarnar verða vistaðar."
 
 #: zenphoto/zp-core/admin-edit.php:746
 msgid "px"
-msgstr ""
+msgstr "pt"
 
 #: zenphoto/zp-core/admin-edit.php:757
 msgid "Rotation: "
@@ -905,7 +905,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-edit.php:758
 msgid "none"
-msgstr ""
+msgstr "enginn"
 
 #: zenphoto/zp-core/admin-edit.php:759
 msgid "90 degrees"
@@ -969,16 +969,16 @@ msgstr "Ekkert"
 
 #: zenphoto/zp-core/admin-edit.php:849
 msgid "show more fields"
-msgstr ""
+msgstr "sýna fleiri dálka"
 
 #: zenphoto/zp-core/admin-edit.php:851
 msgid "show fewer fields"
-msgstr ""
+msgstr "sýna færri dálka"
 
 #: zenphoto/zp-core/admin-edit.php:914
 #: zenphoto/zp-core/admin-options.php:442
 msgid "Your passwords did not match"
-msgstr ""
+msgstr "Aðgangsorðin þín samsvarast ekki"
 
 #: zenphoto/zp-core/admin-edit.php:918
 msgid "Save Successful"
@@ -986,11 +986,11 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-edit.php:943
 msgid "Edit All Albums in"
-msgstr ""
+msgstr "Breyta öllum albúmum í"
 
 #: zenphoto/zp-core/admin-edit.php:945
 msgid "Back to the list of albums (go up a level)"
-msgstr ""
+msgstr "Aftur á albúmalista (upp um þrep)"
 
 #: zenphoto/zp-core/admin-edit.php:975
 msgid "Edit Gallery"
@@ -998,7 +998,7 @@ msgstr "Breyta gallerýi"
 
 #: zenphoto/zp-core/admin-edit.php:982
 msgid "Album order saved"
-msgstr ""
+msgstr "Albúmaröðun vistuð"
 
 #: zenphoto/zp-core/admin-edit.php:987
 msgid "Hitcounters have been reset."
@@ -1010,15 +1010,15 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-edit.php:1026
 msgid "Edit this album"
-msgstr ""
+msgstr "Breyta þessu albúmi"
 
 #: zenphoto/zp-core/admin-edit.php:1058
 msgid "There are no albums for you to edit."
-msgstr ""
+msgstr "Það eru engin albúm til að breyta."
 
 #: zenphoto/zp-core/i.php:40
 msgid "Too few arguments! Image not found."
-msgstr ""
+msgstr "Of fá frumgildi! Myndin fannst ekki."
 
 #: zenphoto/zp-core/i.php:141
 msgid "The cache directory does not exist. Please create it and set the permissions to 0777."
@@ -1030,35 +1030,35 @@ msgstr ""
 
 #: zenphoto/zp-core/i.php:173
 msgid "Image not found; file does not exist."
-msgstr ""
+msgstr "Myndin fannst ekki; skráin er ekki til."
 
 #: zenphoto/zp-core/setup-option-defaults.php:220
 #: zenphoto/themes/effervescence_plus/request.php:53
 #: zenphoto/themes/effervescence_plus/request.php:88
 msgid "Register"
-msgstr ""
+msgstr "Nýskrá"
 
 #: zenphoto/zp-core/setup-option-defaults.php:221
 msgid "Click here to register for this site."
-msgstr ""
+msgstr "Smelltu hér til að nýskrá þig."
 
 #: zenphoto/zp-core/archive.php:103
 msgid "Could not create zip file."
-msgstr ""
+msgstr "Gat ekki búið til zip skrá."
 
 #: zenphoto/zp-core/archive.php:110
 #: zenphoto/zp-core/archive.php:122
 #: zenphoto/zp-core/archive.php:134
 msgid "Could not create tar file."
-msgstr ""
+msgstr "Gat ekki búið til tar skrá."
 
 #: zenphoto/zp-core/archive.php:115
 msgid "Could not create bzip2 file."
-msgstr ""
+msgstr "Gat ekki búið til bzip2 skrá."
 
 #: zenphoto/zp-core/archive.php:127
 msgid "Could not create gzip file."
-msgstr ""
+msgstr "Gat ekki búið til gzip skrá."
 
 #: zenphoto/zp-core/archive.php:303
 msgid "Can only use download_file() if archive is in memory. Redirect to file otherwise, it is faster."
@@ -1082,19 +1082,19 @@ msgstr ""
 #: zenphoto/zp-core/archive.php:436
 #, php-format
 msgid "Could not extract from %s it is corrupt."
-msgstr ""
+msgstr "Gat ekki dregið úr skráarsafninu %s því það er skemmt."
 
 #: zenphoto/zp-core/archive.php:452
 #, php-format
 msgid "%s already exists."
-msgstr ""
+msgstr "%s er þegar til."
 
 #: zenphoto/zp-core/archive.php:469
 #: zenphoto/zp-core/archive.php:514
 #: zenphoto/zp-core/archive.php:555
 #, php-format
 msgid "Could not open %s for writing."
-msgstr ""
+msgstr "Gat ekki opnað %s til að skrifa."
 
 #: zenphoto/zp-core/archive.php:596
 #, php-format
@@ -1103,35 +1103,35 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:392
 msgid "Password reset request.<br/>You may now set admin usernames and passwords."
-msgstr ""
+msgstr "Beiðni um núllstillingu aðgangsorðs.<br/>Núna getur þú valið notandanöfn og aðgangsorð fyrir stjórnendur."
 
 #: zenphoto/zp-core/admin-options.php:407
 msgid "admin information"
-msgstr ""
+msgstr "stjórnandaupplýsingar"
 
 #: zenphoto/zp-core/admin-options.php:410
 msgid "gallery configuration"
-msgstr ""
+msgstr "gallerýsstillingar"
 
 #: zenphoto/zp-core/admin-options.php:411
 msgid "image display"
-msgstr ""
+msgstr "sýning mynda"
 
 #: zenphoto/zp-core/admin-options.php:412
 msgid "comment configuration"
-msgstr ""
+msgstr "athugasemdastillingar"
 
 #: zenphoto/zp-core/admin-options.php:415
 msgid "theme options"
-msgstr ""
+msgstr "þemavalmöguleikar"
 
 #: zenphoto/zp-core/admin-options.php:418
 msgid "plugin options"
-msgstr ""
+msgstr "íbótavalmöguleikar"
 
 #: zenphoto/zp-core/admin-options.php:440
 msgid "You must supply a password"
-msgstr ""
+msgstr "Þú verður að gefa aðgangsorð"
 
 #: zenphoto/zp-core/admin-options.php:455
 msgid "Your Allowed tags change did not parse successfully."
@@ -1140,7 +1140,7 @@ msgstr ""
 #: zenphoto/zp-core/admin-options.php:463
 #, php-format
 msgid "Your %s passwords were empty or did not match"
-msgstr ""
+msgstr "%s aðgangsorðin þín eru tóm eða samsvarast ekki"
 
 #: zenphoto/zp-core/admin-options.php:466
 msgid "You must supply a password for the Gallery guest user"
@@ -1175,15 +1175,15 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:499
 msgid "Expand all"
-msgstr ""
+msgstr "Opna allt"
 
 #: zenphoto/zp-core/admin-options.php:500
 msgid "Collapse all"
-msgstr ""
+msgstr "Loka öllu"
 
 #: zenphoto/zp-core/admin-options.php:509
 msgid "pending verification"
-msgstr ""
+msgstr "bíður staðfestingar"
 
 #: zenphoto/zp-core/admin-options.php:516
 msgid "Master"
@@ -1192,15 +1192,15 @@ msgstr ""
 #: zenphoto/zp-core/admin-options.php:538
 #: zenphoto/zp-core/admin-options.php:546
 msgid "Add New Admin"
-msgstr ""
+msgstr "Bæta við stjórnanda"
 
 #: zenphoto/zp-core/admin-options.php:562
 msgid "Authenticate user"
-msgstr ""
+msgstr "Sannvotta notanda"
 
 #: zenphoto/zp-core/admin-options.php:575
 msgid "Are you sure you want to delete this user?"
-msgstr ""
+msgstr "Ertu viss um að þú viljir eyða þessum notanda?"
 
 #: zenphoto/zp-core/admin-options.php:577
 msgid "This is the master user account. If you delete it another user will be promoted to master user."
@@ -1208,22 +1208,22 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:581
 msgid "Delete this user."
-msgstr ""
+msgstr "Eyða þessum notanda."
 
 #: zenphoto/zp-core/admin-options.php:591
 #: zenphoto/zp-core/plugins/register_user/register_user_form.php:13
 msgid "Password:"
-msgstr ""
+msgstr "Lykilorð:"
 
 #: zenphoto/zp-core/admin-options.php:592
 #: zenphoto/zp-core/admin-options.php:775
 #: zenphoto/zp-core/admin-options.php:799
 msgid "(repeat)"
-msgstr ""
+msgstr "(endurtaka)"
 
 #: zenphoto/zp-core/admin-options.php:602
 msgid "Rights"
-msgstr ""
+msgstr "Réttindi"
 
 #: zenphoto/zp-core/admin-options.php:609
 msgid "User admin"
@@ -1237,11 +1237,11 @@ msgstr "Stillingar"
 #: zenphoto/zp-core/admin-options.php:619
 #: zenphoto/zp-core/plugins/admin_toolbox.php:136
 msgid "Zenpage"
-msgstr ""
+msgstr "Zenpage"
 
 #: zenphoto/zp-core/admin-options.php:625
 msgid "Themes"
-msgstr ""
+msgstr "Þemu"
 
 #: zenphoto/zp-core/admin-options.php:630
 msgid "Manage all albums"
@@ -1267,7 +1267,7 @@ msgstr "Gera athugasemd"
 #: zenphoto/zp-core/admin-options.php:646
 #: zenphoto/zp-core/admin-upload.php:246
 msgid "Upload"
-msgstr ""
+msgstr "Uppflytja"
 
 #: zenphoto/zp-core/admin-options.php:651
 msgid "View all"
@@ -1311,7 +1311,7 @@ msgstr "Titill gallerýs:"
 
 #: zenphoto/zp-core/admin-options.php:753
 msgid "What you want to call your photo gallery."
-msgstr ""
+msgstr "Hvað þú vilt kalla myndagallerýið þitt"
 
 #: zenphoto/zp-core/admin-options.php:756
 msgid "Gallery description:"
@@ -1319,7 +1319,7 @@ msgstr "Lýsing gallerýs:"
 
 #: zenphoto/zp-core/admin-options.php:760
 msgid "A brief description of your gallery. Some themes may display this text."
-msgstr ""
+msgstr "Stutt lýsing á gallerýinu þínu. Sum þemu sýna þennan texta."
 
 #: zenphoto/zp-core/admin-options.php:763
 msgid "Enable user name login field:"
@@ -1331,7 +1331,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:769
 msgid "Gallery guest user:"
-msgstr ""
+msgstr "Gestanotandi gallerýs:"
 
 #: zenphoto/zp-core/admin-options.php:771
 msgid "User ID for the gallery guest user"
@@ -1339,7 +1339,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:774
 msgid "Gallery password:"
-msgstr ""
+msgstr "Aðgangsorð gallerýs:"
 
 #: zenphoto/zp-core/admin-options.php:783
 msgid "Master password for the gallery. If this is set, visitors must know this password to view the gallery."
@@ -1347,12 +1347,12 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:786
 msgid "Gallery password hint:"
-msgstr ""
+msgstr "Vísbending fyrir aðgangsorð gallerýs:"
 
 #: zenphoto/zp-core/admin-options.php:790
 #: zenphoto/zp-core/admin-options.php:813
 msgid "A reminder hint for the password."
-msgstr ""
+msgstr "Vísbending til að minna þig á lykilorðið."
 
 #: zenphoto/zp-core/admin-options.php:793
 msgid "Search guest user:"
@@ -1364,7 +1364,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:798
 msgid "Search password:"
-msgstr ""
+msgstr "Leitaraðgangsorð:"
 
 #: zenphoto/zp-core/admin-options.php:806
 msgid "Password for the the search guest user. If this is set, visitors must know this password to view search results."
@@ -1372,7 +1372,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:809
 msgid "Search password hint:"
-msgstr ""
+msgstr "Vísbending fyrir leitaraðgangsorð:"
 
 #: zenphoto/zp-core/admin-options.php:816
 msgid "Website title:"
@@ -1384,7 +1384,7 @@ msgstr "Titill vefsíðu þinnar."
 
 #: zenphoto/zp-core/admin-options.php:823
 msgid "Website url:"
-msgstr ""
+msgstr "Tengill vefsíðu:"
 
 #: zenphoto/zp-core/admin-options.php:826
 msgid "This is used to link back to your main site, but your theme must\tsupport it."
@@ -1392,7 +1392,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:829
 msgid "Server protocol:"
-msgstr ""
+msgstr "Samskiptareglur netþjóns:"
 
 #: zenphoto/zp-core/admin-options.php:832
 msgid "If you're running a secure server, change this to"
@@ -1404,12 +1404,12 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:836
 msgid "Time offset (hours):"
-msgstr ""
+msgstr "Tímalhliðrun (í klst):"
 
 #: zenphoto/zp-core/admin-options.php:843
 #, php-format
 msgid "Your server reports its timezone as: <code>%s</code>."
-msgstr ""
+msgstr "Netþjónninn þinn tilkynnir að sitt tímabeltisé: <code>%s</code>."
 
 #: zenphoto/zp-core/admin-options.php:846
 msgid "If you're in a different time zone from your server, set the\toffset in hours of your timezone from that of the server. For instance if your server is on the US East Coast (<em>GMT</em> - 5) and you are on the Pacific Coast (<em>GMT</em> - 8), set the offset to 3 (-5 - (-8))."
@@ -1449,7 +1449,7 @@ msgstr "Tungumál:"
 
 #: zenphoto/zp-core/admin-options.php:875
 msgid "Multi-lingual"
-msgstr ""
+msgstr "Fjölmála"
 
 #: zenphoto/zp-core/admin-options.php:879
 msgid "The language to display text in. (Set to <em>HTTP Accept Language</em> to use the language preference specified by the viewer's browser.)"
@@ -1465,13 +1465,13 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:886
 msgid "Date format:"
-msgstr ""
+msgstr "Dagsetningarsnið:"
 
 #: zenphoto/zp-core/admin-options.php:898
 #: zenphoto/zp-core/exif/makers/canon.php:280
 #: zenphoto/zp-core/exif/makers/fujifilm.php:102
 msgid "Custom"
-msgstr ""
+msgstr "Sérsniðið"
 
 #: zenphoto/zp-core/admin-options.php:899
 msgid "02/25/08 15:30"
@@ -1631,7 +1631,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:956
 msgid "Charset:"
-msgstr ""
+msgstr "Stafasett:"
 
 #: zenphoto/zp-core/admin-options.php:960
 msgid "The character encoding to use internally. Leave at <em>Unicode\t(UTF-8)</em> if you're unsure."
@@ -1647,11 +1647,11 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:973
 msgid "Allowed tags:"
-msgstr ""
+msgstr "Leyfð tög:"
 
 #: zenphoto/zp-core/admin-options.php:976
 msgid "restore default allowed tags"
-msgstr ""
+msgstr "núllstilla leyfð tög"
 
 #: zenphoto/zp-core/admin-options.php:978
 msgid "Tags and attributes allowed in comments, descriptions, and other fields."
@@ -1695,7 +1695,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1007
 msgid "Sort gallery by:"
-msgstr ""
+msgstr "Sortera gallerý eftir:"
 
 #: zenphoto/zp-core/admin-options.php:1018
 #: zenphoto/zp-core/admin-options.php:1092
@@ -1706,20 +1706,20 @@ msgstr "Lækkandi"
 
 #: zenphoto/zp-core/admin-options.php:1019
 msgid "Sort order for the albums on the index of the gallery"
-msgstr ""
+msgstr "Röðun á albúmum í yfirliti gallerýs"
 
 #: zenphoto/zp-core/admin-options.php:1022
 #: zenphoto/zp-core/admin-dynamic-album.php:185
 msgid "Search fields:"
-msgstr ""
+msgstr "Leitardálkar:"
 
 #: zenphoto/zp-core/admin-options.php:1032
 msgid "exact"
-msgstr ""
+msgstr "nákvæmt"
 
 #: zenphoto/zp-core/admin-options.php:1033
 msgid "partial"
-msgstr ""
+msgstr "að hluta"
 
 #: zenphoto/zp-core/admin-options.php:1045
 msgid "The set of fields on which searches may be performed."
@@ -1739,7 +1739,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1055
 msgid "<strong>Note: </strong>Setting\tthis option may impact password protected albums!"
-msgstr ""
+msgstr "<strong>Athugið: </strong>Þessi stilling\t gæti haft áhrif á albúm sem eru varin aðgangsorði!"
 
 #: zenphoto/zp-core/admin-options.php:1058
 msgid "Enable gallery sessions:"
@@ -1885,7 +1885,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1218
 msgid "Unprotected"
-msgstr ""
+msgstr "Óvarin"
 
 #: zenphoto/zp-core/admin-options.php:1218
 msgid "Protected view"
@@ -1893,11 +1893,11 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1218
 msgid "Download"
-msgstr ""
+msgstr "Niðurhala"
 
 #: zenphoto/zp-core/admin-options.php:1218
 msgid "No access"
-msgstr ""
+msgstr "Enginn aðgangur"
 
 #: zenphoto/zp-core/admin-options.php:1224
 msgid "Disable hotlinking"
@@ -1925,7 +1925,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1244
 msgid "Enabled"
-msgstr ""
+msgstr "Virkt"
 
 #: zenphoto/zp-core/admin-options.php:1246
 msgid "Substitute a <em>lock</em> image for thumbnails of password protected albums when the viewer has not supplied the password. If your theme supplies an <code>images/err-passwordprotected.gif</code> image, it will be shown. Otherwise the zenphoto default lock image is displayed."
@@ -1957,7 +1957,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1297
 msgid "Spam filter:"
-msgstr ""
+msgstr "Ruslpóstssía:"
 
 #: zenphoto/zp-core/admin-options.php:1305
 msgid "The SPAM filter plug-in you wish to use to check comments for SPAM"
@@ -2004,7 +2004,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1414
 msgid "Show theme for:"
-msgstr ""
+msgstr "Sýna þema fyrir:"
 
 #: zenphoto/zp-core/admin-options.php:1426
 msgid "<strong>Standard options</strong>"
@@ -2016,7 +2016,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1431
 msgid "Albums per page:"
-msgstr ""
+msgstr "Albúm á síðu:"
 
 #: zenphoto/zp-core/admin-options.php:1434
 msgid "Controls the number of albums on a page. You might need to change\tthis after switching themes to make it look better."
@@ -2024,7 +2024,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1437
 msgid "Images per page:"
-msgstr ""
+msgstr "Myndir á síðu:"
 
 #: zenphoto/zp-core/admin-options.php:1440
 #: zenphoto/zp-core/plugins/paged_thumbs_nav.php:53
@@ -2077,7 +2077,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1481
 msgid "Custom index page:"
-msgstr ""
+msgstr "Sérsniðin yfirlitssíða:"
 
 #: zenphoto/zp-core/admin-options.php:1500
 msgid "If this option is not empty, the Gallery Index URL that would normally link to the theme <code>index.php</code> script will instead link to this script. This option applies only to the main theme for the <em>Gallery</em>."
@@ -2085,15 +2085,15 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-options.php:1503
 msgid "User registration page:"
-msgstr ""
+msgstr "Nýskráningarsíða notenda:"
 
 #: zenphoto/zp-core/admin-options.php:1522
 msgid "Link text"
-msgstr ""
+msgstr "Hlekkstexti"
 
 #: zenphoto/zp-core/admin-options.php:1524
 msgid "Hint text"
-msgstr ""
+msgstr "Vísbendingartexti"
 
 #: zenphoto/zp-core/admin-options.php:1526
 msgid "If this option is not empty, the visitor login form will include a link to this page. The link text will be labeled with the text provided."
@@ -2618,7 +2618,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin.php:149
 msgid "Gallery Stats"
-msgstr ""
+msgstr "Tölfræði gallerýs"
 
 #: zenphoto/zp-core/admin.php:156
 #: zenphoto/zp-core/utilities/gallery_statistics.php:369
@@ -2636,7 +2636,7 @@ msgstr "<strong>%u</strong> myndir"
 #: zenphoto/zp-core/utilities/gallery_statistics.php:377
 #, php-format
 msgid "<strong>%1$u</strong> albums (%2$u not published)"
-msgstr ""
+msgstr "<strong>%1$u</strong> albúm (%2$u óútgefin)"
 
 #: zenphoto/zp-core/admin.php:169
 #: zenphoto/zp-core/utilities/gallery_statistics.php:379
@@ -2669,7 +2669,7 @@ msgstr "<strong>1</strong> athugasemd"
 
 #: zenphoto/zp-core/admin.php:195
 msgid "Installation information"
-msgstr ""
+msgstr "Uppsetningarupplýsingar"
 
 #: zenphoto/zp-core/admin.php:200
 msgid "Official Build"
@@ -2677,52 +2677,52 @@ msgstr ""
 
 #: zenphoto/zp-core/admin.php:202
 msgid "SVN"
-msgstr ""
+msgstr "SVN"
 
 #: zenphoto/zp-core/admin.php:205
 #, php-format
 msgid "Zenphoto version <strong>%1$s [%2$s] (%3$s)</strong>"
-msgstr ""
+msgstr "Zenphoto útgáfa <strong>%1$s [%2$s] (%3$s)</strong>"
 
 #: zenphoto/zp-core/admin.php:206
 #, php-format
 msgid "zenpage version <strong>%1$s [%2$s]</strong>"
-msgstr ""
+msgstr "zenpage útgáfa <strong>%1$s [%2$s]</strong>"
 
 #: zenphoto/zp-core/admin.php:207
 #, php-format
 msgid "Current gallery theme: <strong>%1$s</strong>"
-msgstr ""
+msgstr "Núgildandi þema gallerýs: <strong>%1$s</strong>"
 
 #: zenphoto/zp-core/admin.php:208
 #, php-format
 msgid "PHP version: <strong>%1$s</strong>"
-msgstr ""
+msgstr "PHP útgáfa: <strong>%1$s</strong>"
 
 #: zenphoto/zp-core/admin.php:209
 #, php-format
 msgid "PHP memory limit: <strong>%1$s</strong> (Note: Your server might allocate less!)"
-msgstr ""
+msgstr "PHP minnistakmark: <strong>%1$s</strong> (Athugið: Netþjónninn þinn gæti úthlutað minna!)"
 
 #: zenphoto/zp-core/admin.php:210
 #, php-format
 msgid "MySQL version: <strong>%1$s</strong>"
-msgstr ""
+msgstr "MySQL útgáfa: <strong>%1$s</strong>"
 
 #: zenphoto/zp-core/admin.php:211
 #, php-format
 msgid "Database name: <strong>%1$s</strong>"
-msgstr ""
+msgstr "Nafn gagnagrunns: <strong>%1$s</strong>"
 
 #: zenphoto/zp-core/admin.php:215
 #, php-format
 msgid "Table prefix: <strong>%1$s</strong>"
-msgstr ""
+msgstr "Töfluforskeyti: <strong>%1$s</strong>"
 
 #: zenphoto/zp-core/admin.php:219
 #, php-format
 msgid "Spam filter: <strong>%s</strong>"
-msgstr ""
+msgstr "Ruslpóstssía: <strong>%s</strong>"
 
 #: zenphoto/zp-core/admin.php:220
 #, php-format
@@ -2731,20 +2731,20 @@ msgstr ""
 
 #: zenphoto/zp-core/admin.php:223
 msgid "Active plugins:"
-msgstr ""
+msgstr "Virkar íbætur:"
 
 #: zenphoto/zp-core/admin.php:242
 msgid "Could not connect to  <a href=\"http://www.zenphoto.org\">zenphoto.org</a>"
-msgstr ""
+msgstr "Gat ekki tengst <a href=\"http://www.zenphoto.org\">zenphoto.org</a>"
 
 #: zenphoto/zp-core/admin.php:244
 #, php-format
 msgid "zenphoto version %s is available."
-msgstr ""
+msgstr "zenphoto útgáfa %s er komin út."
 
 #: zenphoto/zp-core/admin.php:247
 msgid "You are running the latest zenphoto version."
-msgstr ""
+msgstr "Þú ert að keyra nýjustu útgáfuna af zenphoto."
 
 #: zenphoto/zp-core/admin.php:258
 msgid "Check for zenphoto update"
@@ -2756,7 +2756,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin.php:267
 msgid "Refresh the Database"
-msgstr ""
+msgstr "Endurnýja gagnagrunninn"
 
 #: zenphoto/zp-core/admin.php:271
 msgid "Cleans the database and removes any orphan entries for comments, images, and albums."
@@ -4276,7 +4276,7 @@ msgstr ""
 
 #: zenphoto/zp-core/admin-themes.php:164
 msgid "Current Theme"
-msgstr "Núverandi þema"
+msgstr "Núgildandi þema"
 
 #: zenphoto/zp-core/full-image.php:19
 msgid "Forbidden"
